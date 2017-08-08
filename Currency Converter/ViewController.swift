@@ -287,7 +287,10 @@ class ViewController: UIViewController ,UIPickerViewDelegate ,UITextFieldDelegat
     //Done
     func doneClick() {
 
-        activeTF.text = activeValue
+        if activeTF == fromImg || activeTF == toImg {
+            activeTF.text = activeValue
+
+        }
         activeTF.resignFirstResponder()
         
     }
