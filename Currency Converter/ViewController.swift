@@ -296,7 +296,7 @@ class ViewController: UIViewController ,UIPickerViewDelegate ,UITextFieldDelegat
         activeTF.resignFirstResponder()
     }
 
-    
+    //TextField Delegate
     func textFieldDidBeginEditing(_ textField: UITextField) {
         
         // set up correct active textField (no)
@@ -316,7 +316,13 @@ class ViewController: UIViewController ,UIPickerViewDelegate ,UITextFieldDelegat
         
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {
+        textField.resignFirstResponder()
+        return true
+    }
     
+    //Dyamnic Picker creation
     func pickUpValue(textField: UITextField) {
         
         // create frame and size of picker view
