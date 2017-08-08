@@ -17,7 +17,6 @@
 		FA7CF60B1F39A0C80098EE58 /* euro.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7CF6081F39A0C80098EE58 /* euro.png */; };
 		FA7CF60C1F39A0C80098EE58 /* jpy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7CF6091F39A0C80098EE58 /* jpy.png */; };
 		FA7CF60D1F39A0C80098EE58 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7CF60A1F39A0C80098EE58 /* us.png */; };
-		FA7CF60F1F39A5D20098EE58 /* swap.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7CF60E1F39A5D20098EE58 /* swap.png */; };
 		FA7CF6111F39A8680098EE58 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA7CF6101F39A8680098EE58 /* images.jpeg */; };
 		FA7CF6131F39C20D0098EE58 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7CF6121F39C20D0098EE58 /* image.jpg */; };
 		FA7CF6151F39C2B70098EE58 /* sort.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7CF6141F39C2B70098EE58 /* sort.png */; };
@@ -57,7 +56,6 @@
 		FA7CF6081F39A0C80098EE58 /* euro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = euro.png; sourceTree = "<group>"; };
 		FA7CF6091F39A0C80098EE58 /* jpy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jpy.png; sourceTree = "<group>"; };
 		FA7CF60A1F39A0C80098EE58 /* us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us.png; sourceTree = "<group>"; };
-		FA7CF60E1F39A5D20098EE58 /* swap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swap.png; sourceTree = "<group>"; };
 		FA7CF6101F39A8680098EE58 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		FA7CF6121F39C20D0098EE58 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 		FA7CF6141F39C2B70098EE58 /* sort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sort.png; sourceTree = "<group>"; };
@@ -111,17 +109,11 @@
 		FA7CF5CB1F3981000098EE58 /* Currency Converter */ = {
 			isa = PBXGroup;
 			children = (
-				FA7CF6141F39C2B70098EE58 /* sort.png */,
-				FA7CF6121F39C20D0098EE58 /* image.jpg */,
-				FA7CF6101F39A8680098EE58 /* images.jpeg */,
-				FA7CF60E1F39A5D20098EE58 /* swap.png */,
-				FA7CF6081F39A0C80098EE58 /* euro.png */,
-				FA7CF6091F39A0C80098EE58 /* jpy.png */,
-				FA7CF60A1F39A0C80098EE58 /* us.png */,
 				FA7CF5CC1F3981010098EE58 /* AppDelegate.swift */,
 				FA7CF5CE1F3981020098EE58 /* ViewController.swift */,
 				FA7CF5D01F3981020098EE58 /* Main.storyboard */,
 				FA7CF5D31F3981030098EE58 /* Assets.xcassets */,
+				FA7CF6161F39D3F90098EE58 /* Images */,
 				FA7CF5D51F3981030098EE58 /* LaunchScreen.storyboard */,
 				FA7CF5D81F3981040098EE58 /* Info.plist */,
 			);
@@ -144,6 +136,19 @@
 				FA7CF5EE1F3981070098EE58 /* Info.plist */,
 			);
 			path = "Currency ConverterUITests";
+			sourceTree = "<group>";
+		};
+		FA7CF6161F39D3F90098EE58 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA7CF6141F39C2B70098EE58 /* sort.png */,
+				FA7CF6121F39C20D0098EE58 /* image.jpg */,
+				FA7CF6101F39A8680098EE58 /* images.jpeg */,
+				FA7CF6081F39A0C80098EE58 /* euro.png */,
+				FA7CF6091F39A0C80098EE58 /* jpy.png */,
+				FA7CF60A1F39A0C80098EE58 /* us.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +265,6 @@
 				FA7CF60B1F39A0C80098EE58 /* euro.png in Resources */,
 				FA7CF60C1F39A0C80098EE58 /* jpy.png in Resources */,
 				FA7CF60D1F39A0C80098EE58 /* us.png in Resources */,
-				FA7CF60F1F39A5D20098EE58 /* swap.png in Resources */,
 				FA7CF5D21F3981020098EE58 /* Main.storyboard in Resources */,
 				FA7CF6131F39C20D0098EE58 /* image.jpg in Resources */,
 			);
