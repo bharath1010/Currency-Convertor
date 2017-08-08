@@ -322,6 +322,8 @@ class ViewController: UIViewController ,UIPickerViewDelegate ,UITextFieldDelegat
         return true
     }
     
+    
+    
     //Dyamnic Picker creation
     func pickUpValue(textField: UITextField) {
         
@@ -333,7 +335,9 @@ class ViewController: UIViewController ,UIPickerViewDelegate ,UITextFieldDelegat
         
         
         picker.backgroundColor = UIColor.clear
-        textField.inputView = self.picker
+        toImg.inputView = self.picker
+        fromImg.inputView = self.picker
+
         
         // toolBar
         let toolBar = UIToolbar()
